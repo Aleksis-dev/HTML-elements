@@ -1,0 +1,48 @@
+.intro{
+    text-align: center;
+    padding: 1px;
+    background-color: #e0e0e0;
+}
+
+h1{
+    color: black;
+    font-family: fantasy;
+}
+
+p{
+    font-family: fantasy;
+}
+
+.text{
+    text-align: center;
+}
+
+.lines{
+    text-align: center;
+    padding: 1px;
+    background-color: #e0e0e0;
+}
+
+.sigma{
+    text-align: center;
+    padding: 1px;
+    background-color: wheat;
+}
+
+.motive{
+    font-size: 100px;
+    padding: 1px;
+    background-color: red;
+    text-align: center;
+    animation-name: test;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    0% {background-color: red; font-size: 100px;}
+    25% {background-color: yellow; font-size: 75px;}
+    50% {background-color: cyan; font-size: 50px;}
+    75% {background-color: purple; font-size: 75px;}
+    100% {background-color: red; font-size: 100px;}
+  }
